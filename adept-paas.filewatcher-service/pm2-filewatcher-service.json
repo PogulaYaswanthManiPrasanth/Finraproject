@@ -1,0 +1,10 @@
+{
+    "apps": [
+        {
+          "name": "adept-paas.filewatcher-service",
+          "script": "index.js",
+          "autorestart" : true,
+          "log_date_format" : "YYYY-MM-DD HH:mm Z"
+        }
+    ]
+}

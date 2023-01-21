@@ -1,0 +1,16 @@
+{
+  "name": "adept-paas.filewatcher-service",
+  "version": "1.0.0",
+  "description": "This sftp file watcher service will look customer directories on our shared domain and whenever there is new file uploaded by our customers in their associated directories, it will run the particular script mentioned in the config.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adept.file-watcher.service-module": "^1.0.9",
+    "service.core": "^3.0.11",
+    "service.module.core": "^0.1.19"
+  }
+}
